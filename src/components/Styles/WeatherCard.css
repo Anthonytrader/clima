@@ -1,0 +1,94 @@
+/* WeatherCard.css */
+
+.weather {
+  width: 300px;
+  background-color: rgba(51, 51, 51, 0.7); 
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff; 
+  
+}
+
+.weather_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.weather_location {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.weather_img-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  margin: 20px 0;
+
+}
+
+.weather_img {
+  max-width: 100px;
+  opacity: 0.9;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+
+}
+
+.weather_condition {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.weather_list {
+  list-style: none;
+  padding: 0;
+}
+
+.weather_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.weather_label {
+  font-size: 1rem;
+  color: #fff;
+  flex: 1;
+  text-align: left;
+}
+
+.weather_value {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  flex: 1;
+  text-align: right;
+}
+
+.weather_temp {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.weather_btn {
+  background-color: #4CA5D7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.weather_btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
